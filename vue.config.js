@@ -1,4 +1,4 @@
 module.exports = {
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/find-a-coach-project/" : "/"
+  publicPath: process.env.NODE_ENV === "production" ? "/find-a-coach-project/" : "/",
 }
