@@ -1,4 +1,4 @@
 module.exports = {
   outputDir: 'docs',
-  publicPath: '/Find-a-Coach-Project/'
+  publicPath: '/find-a-coach-project'
 }
