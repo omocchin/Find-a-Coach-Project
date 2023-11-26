@@ -34,6 +34,8 @@ export default {
     }
 
     console.log('aaa')
+    console.log(process.env.NODE_ENV)
+
     const response = await fetch(
       `https://vue-coach-project-c2d42-default-rtdb.firebaseio.com/coaches.json`
     )
