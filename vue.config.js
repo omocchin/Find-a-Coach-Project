@@ -1,5 +1,7 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/find-a-coach-project/'
-    : '/'
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/]
+    }
+  }
 }
